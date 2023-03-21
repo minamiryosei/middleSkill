@@ -5,7 +5,7 @@ public class test1 {
 		System.out.println("問１");
 		//問題1:変数"numa"にインクリメント演算子を利用し1マイナスしたものを表示してください。
 		int numa = 5;
-		numa -= 1;
+		numa--;
 		System.out.println(numa);
 
 		//改行
