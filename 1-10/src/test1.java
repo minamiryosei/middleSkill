@@ -53,15 +53,14 @@ public class test1 {
 		System.out.println("問６");
 
 		//問題6:配列"numf"に要素を1つ(10)追加した配列"new_numf"を作成し出力しなさい。
-		int[] numf = {1, 3, 5, 7, 9};
+		int[] numf = { 1, 3, 5, 7, 9 };
 		int[] new_numf = new int[numf.length + 1];
 
-		for (int i = 0; i < numf.length; i++) {
-			new_numf[i] = numf[i];
-		}
+		// numfの要素をnew_numfにコピーする
+		System.arraycopy(numf, 0, new_numf, 0, numf.length);
 
-		new_numf[numf.length] = 10;
-
+		// new_numfの最後の要素に10を追加する
+		new_numf[new_numf.length - 1] = 10;
 		System.out.println(Arrays.toString(new_numf));
 
 		//改行
