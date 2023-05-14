@@ -102,6 +102,6 @@ public class checkTest {
 		//改行
 		System.out.println("問９");
 		//問9 Java編終わった感想と改善点もしございましたらお願いします。
-		//『ここに書いてね』
+		//『わかんねー』
 	}
 }
